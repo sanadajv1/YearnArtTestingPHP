@@ -3,30 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{asset('assets/css/Signup.css')}}">
+<link rel="stylesheet" href="assets/css/Signup.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap" rel="stylesheet">
 
 <title>Yearn Art | Signup</title>
-<link rel="icon" href="Yearn.jpg" type="image/png">
+<link rel="icon" href="{{ asset('assets/image/Yearn.jpg') }}" type="image/png">
 
 </head>
 <body>
   <nav class="navbar">
     <div class="logo">
-      <img src="/Yearn Art/assets/Image/Yearn.jpg" alt="Logo">
-      <a href="#">Yearn Art</a>
+      <img src="assets/image/Yearn.jpg" alt="Logo">
+      <a href="Home">Yearn Art</a>
     </div>
     <div class="menu">
       <div class="menu-links">
-        <a href="#" class="Products">Products</a>
-        <a href="#" class="Orders">My Orders</a>
-        <a href="About.html" class="About">About Us</a>
-        <a href="FAQ.html" class="FAQ">FAQ</a>
-        <a href="Login.html" class="Login">Login</a>
-        <a href="Signup.html" class="Signup">Signup</a>
+        <a href="Products" class="Products">Products</a>
+        <a href="MyOrders" class="Orders">My Orders</a>
+        <a href="About" class="About">About Us</a>
+        <a href="FAQ" class="FAQ">FAQ</a>
+        <a href="Login" class="Login">Login</a>
+        <a href="Signup" class="Signup">Signup</a>
       </div>
     </div>
     <div class="menu-btn">
