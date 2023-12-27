@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="CSS/products.css">
-<link rel="stylesheet" href="CSS/typing.css">
-<link rel="stylesheet" href="CSS/chatbot.css">
+<link rel="stylesheet" href="assets/css/products.css">
+<link rel="stylesheet" href="assets/css/typing.css">
+<link rel="stylesheet" href="assets/css/chatbot.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,24 +13,24 @@
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
 <title>Yearn Art | Home</title>
-<link rel="icon" href="Yearn.jpg" type="image/png">
+<link rel="icon" href="assets/image/Yearn.jpg" type="image/png">
 
 </head>
 <body>
   <nav class="navbar">
     <div class="logo">
-      <img src="Yearn.jpg" alt="Logo">
-      <a href="Home">Yearn Art</a>
+      <img src="assets/image/Yearn.jpg" alt="Logo">
+      <a href="home.html">Yearn Art</a>
     </div>
     <div class="menu">
-        <div class="menu-links">
-            <a href="Products" class="Products">Products</a>
-            <a href="MyOrders" class="Orders">My Orders</a>
-            <a href="About" class="About">About Us</a>
-            <a href="FAQ" class="FAQ">FAQ</a>
-            <a href="Login" class="Login">Login</a>
-            <a href="Signup" class="Signup">Signup</a>
-        </div>
+      <div class="menu-links">
+        <a href="Products" class="Products">Products</a>
+        <a href="MyOrders" class="Orders">My Orders</a>
+        <a href="About" class="About">About Us</a>
+        <a href="FAQ" class="FAQ">FAQ</a>
+        <a href="Login" class="Login">Login</a>
+        <a href="Signup" class="Signup">Signup</a>
+      </div>
     </div>
     <div class="menu-btn">
       <i class="fa-solid fa-bars"></i>
@@ -43,13 +43,13 @@
         <div class="handmade-products">
             <section class="layout1">
                 <div>
-                    <img src="/Yearn Art/Image/Elmobag.png" alt="Elmo Bag">
+                    <img src="assets/image/Elmobag.png" alt="Elmo Bag">
                 </div>
                 <div>
-                    <img src="/Yearn Art/Image/Totebag.png" alt="Tote Bag">
+                    <img src="assets/image/Totebag.png" alt="Tote Bag">
                 </div>
                 <div>
-                    <img src="/Yearn Art/Image/Bag.png" alt="">
+                    <img src="assets/image/Bag.png" alt="">
                 </div>
             </section>
         </div>
@@ -60,16 +60,16 @@
         <div class="babyclothing-products">
             <section class="layout1">
                 <div>
-                    <img src="/Yearn Art/Image/Baby1.png" alt="Elmo Bag">
+                    <img src="assets/image/Baby1.png" alt="Elmo Bag">
                 </div>
                 <div>
-                    <img src="/Yearn Art/Image/Baby2.png" alt="Tote Bag">
+                    <img src="assets/image/Baby2.png" alt="Tote Bag">
                 </div>
                 <div>
-                    <img src="/Yearn Art/Image/Baby3.png" alt="">
+                    <img src="assets/image/Baby3.png" alt="">
                 </div>
                 <div>
-                    <img src="/Yearn Art/Image/Baby4.png" alt="">
+                    <img src="assets/image/Baby4.png" alt="">
                 </div>
             </section>
         </div>
@@ -80,10 +80,10 @@
         <div class="beachwear-products">
             <section class="layout1">
                 <div>
-                    <img src="/Yearn Art/Image/bw1.png" alt="Elmo Bag">
+                    <img src="assets/image/bw1.png" alt="Elmo Bag">
                 </div>
                 <div>
-                    <img src="/Yearn Art/Image/bw2.png" alt="Tote Bag">
+                    <img src="assets/image/bw2.png" alt="Tote Bag">
                 </div>
             </section>
         </div>

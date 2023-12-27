@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="CSS/home.css">
-<link rel="stylesheet" href="CSS/typing.css">
-<link rel="stylesheet" href="CSS/chatbot.css">
+<link rel="stylesheet" href="assets/css/home.css">
+<link rel="stylesheet" href="assets/css/typing.css">
+<link rel="stylesheet" href="assets/css/chatbot.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,13 +13,13 @@
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
 <title>Yearn Art | Home</title>
-<link rel="icon" href="Yearn.jpg" type="image/png">
+<link rel="icon" href="assets/Image/Yearn.jpg" type="image/png">
 
 </head>
 <body>
   <nav class="navbar">
     <div class="logo">
-      <img src="Yearn.jpg" alt="Logo">
+      <a href="Home"><img src="assets/Image/Yearn.jpg" alt="Logo"></a>
       <a href="Home">Yearn Art</a>
     </div>
     <div class="menu">
@@ -40,7 +40,7 @@
   <div class="container">
     <div class="pic">
       <div class="picture">
-        <img src="Yearn.jpg" alt="Yearn Art">
+        <img src="assets/image/Yearn.jpg" alt="Yearn Art">
       </div>
     </div>
     <div class="main-container">
@@ -51,21 +51,21 @@
               <!-- Slide-start -->
               <div class="swiper-slide tranding-slide">
                   <div class="tranding-slide-img">
-                  <img src="baby.jpg" alt="Tranding">
+                  <img src="assets/image/baby.jpg" alt="Tranding">
                   </div>
               </div>
               <!-- Slide-end -->
               <!-- Slide-start -->
               <div class="swiper-slide tranding-slide">
                   <div class="tranding-slide-img">
-                  <img src="totebag2.jpg" alt="Tranding">
+                  <img src="assets/image/totebag2.jpg" alt="Tranding">
                   </div>
               </div>
               <!-- Slide-end -->
               <!-- Slide-start -->
               <div class="swiper-slide tranding-slide">
                   <div class="tranding-slide-img">
-                  <img src="beachwear.jpg" alt="Tranding">
+                  <img src="assets/image/beachwear.jpg" alt="Tranding">
                   </div>
               </div>
               <!-- Slide-end -->
@@ -77,7 +77,7 @@
     </div>
   </div>  
 
-<script src="./home.js"></script>
+<script src="assets/javascript/home.js"></script>
 
 <div class="chatbot">
     <div class="chatbox">
@@ -110,11 +110,11 @@
             </div>
             <div class="chatbox__footer">
                 <div class="file">
-                    <img src="file.png" alt="file">
+                    <img src="assets/image/file.png" alt="file">
                 </div>
                 <input type="text" placeholder="Write a message...">
                 <div class="icon">
-                    <img src="./send.png" alt="Send">
+                    <img src="assets/image/send.png" alt="Send">
                 </div>
             </div>
         </div>
@@ -123,8 +123,8 @@
         </div>
     </div>
 </div>
-<script src="./Chat.js"></script>
-<script src="./app.js"></script>
+<script src="assets/javascript/Chat.js"></script>
+<script src="assets/javascript/app.js"></script>
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

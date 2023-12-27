@@ -19,7 +19,7 @@
 <body>
   <nav class="navbar">
     <div class="logo">
-      <img src="Yearn.jpg" alt="Logo">
+      <a href="Home"><img src="assets/Image/Yearn.jpg" alt="Logo"></a>
       <a href="Home">Yearn Art</a>
     </div>
     <div class="menu">

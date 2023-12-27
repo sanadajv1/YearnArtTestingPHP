@@ -42,7 +42,7 @@ Route::get('/MyOrders', function () {
     return view('YearnArt.MyOrders');
 });
 
-Route::get('/Producs', function () {
+Route::get('/Products', function () {
     return view('YearnArt.Products');
 });
 

@@ -10,13 +10,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap" rel="stylesheet">
 
 <title>Yearn Art | Signup</title>
-<link rel="icon" href="{{ asset('assets/image/Yearn.jpg') }}" type="image/png">
+<link rel="icon" href="assets/Image/Yearn.jpg" type="image/png">
 
 </head>
 <body>
   <nav class="navbar">
     <div class="logo">
-      <img src="assets/image/Yearn.jpg" alt="Logo">
+      <a href="Home"><img src="assets/Image/Yearn.jpg" alt="Logo"></a>
       <a href="Home">Yearn Art</a>
     </div>
     <div class="menu">
@@ -26,7 +26,7 @@
         <a href="About" class="About">About Us</a>
         <a href="FAQ" class="FAQ">FAQ</a>
         <a href="Login" class="Login">Login</a>
-        <a href="Signup" class="Signup">Signup</a>
+  
       </div>
     </div>
     <div class="menu-btn">
@@ -36,6 +36,7 @@
   <p id="Welcome">Create your Yearn Art Account.</p>
  
   <div id="signup-form">
+  <p id="Welcome">Create your Yearn Art Account.</p>
     <form>
         <p class="fields">All fields are required.</p>
         <div class="form-row">
@@ -55,7 +56,7 @@
                 <label for="address">Address:</label>
                 <input type="text" id="address" name="address" required>
                 <button type="submit">Sign Up</button>
-                <p>Already have an account? <a href="Login.html">Login Now!</a></p>
+                <p>Already have an account? <a href="Login">Login Now!</a></p>
                 <p class="cbAgree">
                     <input type="checkbox" id="agree-checkbox" name="agree-checkbox" required>
                     By cheking, I confirm that I have thoroughly read and agreed to Yearn Art's <b><a href="#" class="terms">Terms of Use</a></b> and <b><a href="#" class="privacy">Privacy Policy</a></b>. These documents outline the methods by which Yearn Art collects, utilizes, and reveals my personal information, as well as the legal entitlements I possess according to relevant legislation.
