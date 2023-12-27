@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
 <title>Yearn Art | FAQ</title>
-<link rel="icon" href="Yearn.jpg" type="image/png">
+<link rel="icon" href="assets/image/Yearn.jpg" type="image/png">
 
 </head>
 <body>
@@ -28,8 +28,8 @@
             <a href="MyOrders" class="Orders">My Orders</a>
             <a href="About" class="About">About Us</a>
             <a href="FAQ" class="FAQ">FAQ</a>
-            <a href="Login" class="Login">Login</a>
-            <a href="Signup" class="Signup">Signup</a>
+            <a href="login" class="Login">Log in</a>
+            <a href="register" class="Signup">Signup</a>
         </div>
     </div>
     <div class="menu-btn">
@@ -148,11 +148,11 @@
             </div>
             <div class="chatbox__footer">
                 <div class="file">
-                    <img src="file.png" alt="file">
+                    <img src="assets/image/file.png" alt="file">
                 </div>
                 <input type="text" placeholder="Write a message...">
                 <div class="icon">
-                    <img src="./send.png" alt="Send">
+                    <img src="assets/image/send.png" alt="Send">
                 </div>
             </div>
         </div>
@@ -161,8 +161,8 @@
         </div>
     </div>
 </div>
-<script src="./Chat.js"></script>
-<script src="./app.js"></script>
+<script src="assets/javascript/Chat.js"></script>
+<script src="assets/javascript/app.js"></script>
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
