@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="assets/css/about.css">
-<link rel="stylesheet" href="assets/css/typing.css">
-<link rel="stylesheet" href="assets/css/chatbot.css">
+<link rel="stylesheet" href="CSS/about.css">
+<link rel="stylesheet" href="CSS/typing.css">
+<link rel="stylesheet" href="CSS/chatbot.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,7 @@
 
   <div class="content">
     <div class="yearnpic">
-        <img src="assets/Image/Yearn.jpg" alt="Logo">
+        <img src="Yearn.jpg" alt="Logo">
     </div>
     <div class="about-yearn">
         <h1>ABOUT US</h1>
@@ -59,11 +59,11 @@
     <div class="contact-us">
         <h1>CONTACT US</h1>
 
-        <p><img src="assets/Image/location.png"> 48 Lot 8, Marang St, Amparo Subd., Brgy 179, Caloocan City, MM</p>
+        <p><img src="location.png"> 48 Lot 8, Marang St, Amparo Subd., Brgy 179, Caloocan City, MM</p>
         <br>
-        <p><img src="assets/Image/phone.png">0948 298 9479</p>
+        <p><img src="phone.png">0948 298 9479</p>
         <br>
-        <p><img src="assets/Image/mail.png"><a href="mailto:yearnart21@gmail.com">yearnart21@gmail.com</a></p>
+        <p><img src="mail.png"><a href="mailto:yearnart21@gmail.com">yearnart21@gmail.com</a></p>
     </div>
   </div> 
 
