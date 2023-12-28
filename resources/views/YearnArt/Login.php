@@ -44,7 +44,6 @@
       <input type="password" id="password" name="password" required>
       <button type="submit">LOGIN</button>
     </form>
-    <a href="#">Signup Now</a>
     <a href="#">Forgot Password?</a>
   </div>
   
