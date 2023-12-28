@@ -80,7 +80,7 @@ Route::get('/MyOrders', function () {
     return view('YearnArt.MyOrders');
 });
 
-Route::get('/Products', function () {
+Route::get('/Producs', function () {
     return view('YearnArt.Products');
 });
 
