@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,20 +14,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Front Page*/
 Route::get('/', function () {
-<<<<<<< HEAD
     return view('YearnArt.Home');
-=======
-    return view('YearnArt.Signup');
->>>>>>> parent of b72ae9c (login and registration)
 });
 
-Route::get('/About', function () {
-    return view('YearnArt.About');
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-<<<<<<< HEAD
 require __DIR__.'/auth.php';
 
 
@@ -59,32 +60,4 @@ Route::get('/About', function () {
 Route::get('/MyOrders', function () {
     return view('YearnArt.MyOrders');
 })->name('MyOrders');
-=======
-Route::get('/Login', function () {
-    return view('YearnArt.Login');
-});
-
-Route::get('/Signup', function () {
-    return view('YearnArt.Signup');
-});
-
-Route::get('/FAQ', function () {
-    return view('YearnArt.FAQ');
-});
-
-Route::get('/Home', function () {
-    return view('YearnArt.Home');
-});
-
-Route::get('/MyOrders', function () {
-    return view('YearnArt.MyOrders');
-});
-
-Route::get('/Products', function () {
-    return view('YearnArt.Products');
-});
-
-
-
->>>>>>> parent of b72ae9c (login and registration)
 
